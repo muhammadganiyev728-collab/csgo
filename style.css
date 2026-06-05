@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:black;
+    color:white;
+}
+
+
+.hero{
+    height:500px;
+    background-image: url(./bg.png);
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    text-align:center;
+}
+
+.title-btn{
+    background:#ffc107;
+    color:#002bff;
+    border:none;
+    padding:12px 25px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-bottom:40px;
+    cursor:pointer;
+}
+
+.players{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.card{
+    width:180px;
+    background:#111;
+    border:2px solid #666;
+    box-shadow:0 0 10px white;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+    color:#ffc107;
+}
+
+.info{
+    padding:50px 100px;
+}
+
+.info h1{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    margin-bottom:60px;
+}
+
+.content img{
+    width:350px;
+    height:200px;
+    object-fit:cover;
+}
+
+.text{
+    width:350px;
+}
+
+.text p{
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.text button{
+    background:#ffc107;
+    border:none;
+    padding:10px 25px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.reverse{
+    flex-direction:row;
+}
+
+footer{
+    background:#ffc107;
+    color:black;
+    text-align:center;
+    padding:20px;
+    font-weight:bold;
+}
